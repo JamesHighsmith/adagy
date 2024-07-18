@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend_dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./robot_control_backend:/app
+
+  frontend:
+    build: ./robot_control_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./robot_control_frontend:/app
+    stdin_open: true
+    tty: true
+    command: npm start
+    depends_on:
+      - backend

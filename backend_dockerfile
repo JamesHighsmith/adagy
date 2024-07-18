@@ -1,0 +1,12 @@
+# backend_dockerfile
+FROM python:3.9
+
+WORKDIR /app
+
+COPY robot_control_backend/requirements.txt /app/
+RUN pip install -r requirements.txt
+RUN pip install watchdog
+
+COPY robot_control_backend/ /app/
+
+CMD ["watchmedo", "auto-restart", "--recursive", "--pattern=*.py", "--ignore-patterns='*.pyc;__pycache__/*'", "--", "python", "manage.py", "runserver", "0.0.0.0:8000"]
