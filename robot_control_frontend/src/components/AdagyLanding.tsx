@@ -38,12 +38,12 @@ const AdagyLanding = () => {
           <div className="hero-visual">
             <img src="path_to_your_image.png" alt="Hero Image" className="hero-image" />
           </div>
-          <div className="top-line-block">
+          {/* <div className="top-line-block">
             <div className="text-block-4">A team from world class institutions</div>
             <img src="https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 1279px) 97vw, 1170px" srcSet="https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM-p-500.png 500w, https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM-p-800.png 800w, https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM-p-1080.png 1080w, https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM-p-1600.png 1600w, https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM-p-2000.png 2000w, https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM-p-2600.png 2600w, https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM.png 3064w" alt="Boston Dynamics, Tesla, YCombinator, Penn, MIT logos." className="institution-logos" />
-          </div>
+          </div> */}
 
-        <div className="top-line-block">
+        {/* <div className="top-line-block">
           <div className="text-block-4">We rescued their robots</div>
           <img src="https://assets-global.website-files.com/65b7186813bba4915a75b05b/65b743c85d4a71f80d848440_Screenshot%202024-01-08%20at%209.35.03%20PM.png"
               loading="lazy"
@@ -52,7 +52,7 @@ const AdagyLanding = () => {
               alt="Boston Dynamics, Tesla, YCombinator, Penn, MIT logos."
               className="image-9" />
           <div className="text-block-4">Maybe it's time we rescued yours</div>
-        </div>
+        </div> */}
       </section>
 
 
